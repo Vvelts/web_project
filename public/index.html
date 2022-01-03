@@ -435,6 +435,241 @@
                     </div>
                 </div>
 
+                <div id="flash" class="d-flex flex-row justify-content-center w-100 mxh4B flex-grow-1">
+
+                    <modal v-if="showModal" @close="showModal = false"></modal>
+
+                    <!-- 5 BLOCK -->
+
+                    <div class="col-11 col-lg-8 p-0 wrap mar1">
+
+                        <div class="d-flex flex-column align-items-center">
+
+                            <div class="d-flex flex-row justify-content-center w-100 mb-5 ">
+
+                                <h4>
+                                    Тарифы
+                                </h4>
+
+                            </div>
+
+                            <div class="d-flex row row-cols-1 row-cols-md-3 w-100 justify-content-center wrapper">
+
+                                <div class="col col-flex p-0 p-md-3">
+
+                                    <div class="flash">
+
+                                        <div class="flash-w">
+                                            <div class="flash-h">
+                                                <div class="flash-t">Стартовый</div><br>
+                                            </div>
+                                            <div class="">
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Разработка и поддержка Drupal
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Консультации и работы по SEO
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Услуги дизайнера
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Неиспользованные оплаченные часы переносятся на следующий месяц
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Предоплата от 6 000 рублей в месяц
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <a class="button2" @click="showModal = true, $router.push('Form')">Свяжитесь с
+                                                    нами!</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col col-flex p-0 p-md-3">
+
+                                    <div class="flash">
+
+                                        <div class="flash-w">
+                                            <div class="flash-h">
+                                                <div class="flash-t">Бизнес</div><br>
+                                            </div>
+                                            <div class="">
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Разработка и поддержка Drupal
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Консультации и работы по SEO
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Услуги дизайнера
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Высокое время реакции - до 2 рабочих дней
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Неиспользованные оплаченные часы не переносятся
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Предоплата от 30 000 рублей в месяц
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <a class="button2" @click="showModal = true, $router.push('Form')">Свяжитесь с
+                                                    нами!</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col col-flex p-0 p-md-3">
+
+                                    <div class="flash">
+
+                                        <div class="flash-w">
+                                            <div class="flash-h">
+                                                <div class="flash-t">VIP</div><br>
+                                            </div>
+                                            <div class="">
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Разработка и поддержка Drupal
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Консультации и работы по SEO
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Услуги дизайнера
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Максимальное время реакции - в день обращения
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Неиспользованные оплаченные часы не переносятся
+                                                </div>
+                                                <div class="flash-i d-flex w-100">
+                                                    <img class="agree mr-2" src="img/agree.svg" alt="smth">
+                                                    Предоплата от 270 000 рублей в месяц
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <a class="button2" @click="showModal = true, $router.push('Form')">Свяжитесь с
+                                                    нами!</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex flex-column align-items-center w-100 mt-2 mt-md-4">
+
+                                <h5 class="text-center">
+                                    Вам не подходят наши тарифы? Оставьте заявку и мы
+                                    <br>
+                                    предложим вам индивидуальные условия!
+                                </h5>
+                                <a href="#" class="flash-l">Получить индивидуальный тариф</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <template id="popup" v-if="showModal">
+                        <transition name="modal">
+                            <transition name="fade">
+                            <div class="modal-mask" v-if="showModal">
+                                <div class="modal-wrapper">
+                                    <div class="modal-container">
+                                        <button class="modal-default-button float-right mb-3" @click="$emit('close'), $router.go('-1')">
+                                            X
+                                        </button>
+                                        <div class="body-of-form">
+                                            <div class="spinner" v-if="loaded"></div>
+                                            <form @submit.prevent = "onSubmit" v-if="!loaded" class="forma0 contact-form" id="contact-form">
+                                                <div class="form-name">
+                                                    <div id="name-input-wrapper" class="form-group">
+                                                        <input v-model="name" id="name-of-form" name="firstName" class="field" type="text"
+                                                            placeholder="Ваше имя" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-phone">
+                                                    <div id="phone-input-wrapper" class="form-group">
+                                                        <input v-model="phone" id="phone-of-form" name="phone" class="field" type="text"
+                                                            placeholder="Телефон" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-email">
+                                                    <div id="email-input-wrapper" class="form-group">
+                                                        <input v-model="email" id="email-of-form" name = "email" class="field"
+                                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="text"
+                                                            placeholder="E-mail" required>
+                
+                                                    </div>
+                                                </div>
+                                                <div class="form-message">
+                                                    <div id="message-input-wrapper" class="form-group">
+                                                        <textarea v-model="text" id="message-of-form" name="message" class="field" cols="30" rows="4"
+                                                            placeholder="Ваш комментарий" required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-checkbox mt-n3">
+                                                    <div id="checkbox-input-wrapper" class="form-group">
+                                                        <input v-model="check" type="checkbox" name="check" class="custom-checkbox" id="happy"
+                                                            name="happy" value="yes" required>
+                                                        <label for="happy"><span>Отправляя заявку, я даю согласие на <a
+                                                                    href="#">обработку своих персональных
+                                                                    данных</a></span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-recaptcha mt-n3">
+                                                    <div id="recapthcha-input-wrapper" class="form-group">
+                                                        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                                                        <br />
+                                                    </div>
+                                                </div>
+                                                <div class="form-button mt-n4 mb-3">
+                                                    <button class="button4" type="submit" v-model="submitButton1" :disabled="isButtonDisabled">
+                                                        <p>Свяжитесь с нами</p>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+                        </transition>
+                    </transition>
+                    </template>
+
+                </div>
+
             </div>
 
         </div>
