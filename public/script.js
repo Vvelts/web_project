@@ -10,7 +10,6 @@ $(".slider-1").on('afterChange', function (event, slick, currentSlide) {
       nextArrow: $('.nx'),
       infinite: true,
       slidesToShow: 1,
-      slidesToScroll: 1,
-  
+      slidesToScroll: 1
     });
   });
