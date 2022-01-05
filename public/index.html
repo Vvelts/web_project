@@ -3,28 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <title>Поддержка Drupal</title>
     <link rel="icon" type="image/png" href="img/dlogo.png">
-    <!-- Bootstrap -->
-    <!-- CSS only -->
+    <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- JS, Popper.js, and jQuery -->
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-    <!-- Main CSS -->
+    <!-- Style.css -->
     <link rel="stylesheet" href="style.css">
-    <!-- JS -->
+    <!-- Script.js -->
     <script src="script.js" type="text/javascript" defer></script>
     <!-- Slick -->
     <script src="slick/slick.min.js" defer></script>
@@ -34,51 +28,36 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <!-- Vue Routing -->
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-
 </head>
 
 <body class="container-fluid p-0">
-
-
     <div class="d-flex flex-column w-100 position-relative">
         <!-- BACKGROUND -->
-
         <div class="d-flex flex-column position-relative w-100">
             <!-- VIDEO -->
             <div class="d-flex">
                 <img class="position-fixed bg-white w-100 mar7" src="img/bg-faq.png" alt="dark">
             </div>
-
             <div class="overflow-hidden position-absolute w-100">
-
                 <video loop="" muted="" autoplay="" class="fillWidth">
                     <source src="img/video.mp4" type="video/mp4">
                 </video>
-
             </div>
             <img class="vin" src="img/vinietka.png" alt="dark">
         </div>
-
         <div class="d-flex flex-column position-absolute w-100 bg-mrgn">
             <!-- STUFF -->
-
             <div class="d-flex flex-column bg-white w-100 mxh2"></div>
             <div class="d-flex flex-column back-color w-100 mxh4"></div>
             <div class="d-flex flex-column bg-white w-100 mxh4D overflow-hidden">
-
                 <div class="d-flex dlogoback w-100"></div>
-
             </div>
             <div class="d-flex flex-column bg-white w-100 mxh7"></div>
             <div class="d-flex flex-column w-100 mxh11"></div>
-
         </div>
-
         <div class="d-flex flex-column align-items-center w-100 position-absolute">
             <!-- BLOCKS -->
-
             <div class="col-12 col-lg-8 w-100 p-0 bot">
-
                 <nav class="d-flex flex-row  navbar navbar-expand-sm navbar-dark mt-md-5 w-100 bg-nav ">
                     <!-- navbar -->
                     <img class="navbar-brand logo " src="img/logo-initlab.svg" alt="Главная">
@@ -137,7 +116,6 @@
                 </nav>
 
             </div>
-
 
             <div class="d-flex flex-row justify-content-center w-100">
                 <!-- 1 BLOCK -->
@@ -1092,295 +1070,102 @@
             <!-- end of 7 BLOCK -->
 
             <!--8 BLOCK-->
-                <div class="d-flex flex-column justify-content-center w-100 flex-grow-1 bg-white mt-5 mxhS1">
-                    <div class="d-flex flex-column align-items-center w-100">
+            <div class="d-flex flex-column justify-content-center w-100 flex-grow-1 bg-white mt-5 mxhS1">
+                <div class="d-flex flex-column align-items-center w-100">
+                    <div class="row">
+                        <div class="col-md-12 mb-5">
+                            <h4>Последние кейсы</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center w-100">
+                    <div class="d-flex flex-column col-lg-9 col-md-11">
                         <div class="row">
-                            <div class="col-md-12 mb-5">
-                                <h4>Последние кейсы</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-center w-100">
-                        <div class="d-flex flex-column col-lg-9 col-md-11">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-11 p-2">
-                                    <div class="case-block">
-                                        <div class="case-img" style="background-image: url(img/case-1.jpg)"></div>
-                                        <div class="p-4 case-content">
-                                            <div class="case-header">
-                                                <h2>
-                                                    <a href="#">
-                                                        <span>Настройка кеширования данных. Апгрейд сервера. Ускорение
-                                                            работы сайта в 30 раз.</span>
-                                                    </a>
-                                                </h2>
-                                                <div class="case-date">04.05.2020</div>
-                                            </div>
-                                            <div class="case-main">
-                                                <div class="case-text">
-                                                    <p>Влияние скорости загрузки страниц сайта на отказы и конверсии.
-                                                        Кейс
-                                                        ускорения... </p>
-                                                </div>
-                                            </div>
+                            <div class="col-lg-4 col-md-11 p-2">
+                                <div class="case-block">
+                                    <div class="case-img" style="background-image: url(img/case-1.jpg)"></div>
+                                    <div class="p-4 case-content">
+                                        <div class="case-header">
+                                            <h2>
+                                                <a href="#">
+                                                    <span>Настройка кеширования данных. Апгрейд сервера. Ускорение
+                                                        работы сайта в 30 раз.</span>
+                                                </a>
+                                            </h2>
+                                            <div class="case-date">04.05.2020</div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-11 p-2">
-                                    <div class="case-block">
-                                        <div class="case-img-big" style="background-image: url(img/case-2.jpg)">
-                                            <div class="case-header-big">
-                                                <h2>
-                                                    <a href="#">
-                                                        <span>Использование отчётов<br>Ecommerce в Яндекс.Метрике</span>
-                                                    </a>
-                                                </h2>
+                                        <div class="case-main">
+                                            <div class="case-text">
+                                                <p>Влияние скорости загрузки страниц сайта на отказы и конверсии.
+                                                    Кейс
+                                                    ускорения... </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-11 p-2">
-                                    <div class="case-block">
-                                        <div class="case-img-big" style="background-image: url(img/case-3.jpg)">
-                                            <div class="case-header-big">
-                                                <h2>
-                                                    <a href="#">
-                                                        <span>Повышение конверсии страницы с формой заявки с применением
-                                                            AB-тестирования</span>
-                                                    </a>
-                                                </h2>
-                                                <div class="case-date" style="color: #fff">24.01.2020</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-11 p-2">
-                                    <div class="case-block">
-                                        <div class="case-img-big" style="background-image: url(img/case-4.jpg)">
-                                            <div class="case-header-big">
-                                                <h2>
-                                                    <a href="#">
-                                                        <span>Drupal 7: ускорение генерации страниц интернет-магазина на
-                                                            32%</span>
-                                                    </a>
-                                                </h2>
-                                                <div class="case-date" style="color: #fff">23.09.2019</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-11 p-2">
-                                    <div class="case-block">
-                                        <div class="case-img" style="background-image: url(img/case-5.png)"></div>
-                                        <div class="p-4 case-content">
-                                            <div class="case-header">
-                                                <h2>
-                                                    <a href="#">
-                                                        <span>Обмен товарами и заказами интернет-магазинов на<br>Drupal
-                                                            7 с
-                                                            1C: Предприятие, МойСклад, Класс365 </span>
-                                                    </a>
-                                                </h2>
-                                                <div class="case-date">22.08.2019</div>
-                                            </div>
-                                            <div class="case-main">
-                                                <div class="case-text">
-                                                    <p>Опубликован <a href="#">релиз модуля...</a> </p>
-                                                </div>
-                                            </div>
+                            <div class="col-lg-8 col-md-11 p-2">
+                                <div class="case-block">
+                                    <div class="case-img-big" style="background-image: url(img/case-2.jpg)">
+                                        <div class="case-header-big">
+                                            <h2>
+                                                <a href="#">
+                                                    <span>Использование отчётов<br>Ecommerce в Яндекс.Метрике</span>
+                                                </a>
+                                            </h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- end of 8 BLOCK -->
-
-                 <!--9 BLOCK-->
-                <div class="d-flex flex-column justify-content-center w-100 pt-5 flex-grow-1 feedback mxhS2">
-                    <div class="d-flex flex-column align-items-center w-100 feedback1">
                         <div class="row">
-                            <div class="col-md-12 mb-5">
-                                <h4>Отзывы</h4>
-                            </div>
-                        </div>
-                        <div class="row feedback-main w-100">
-                            <div class="container">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div
-                                        class="row d-flex flex-lg-row flex-sm-column justify-content-center col-lg-11 col-md-11 wrap-slider mb-5 bg-white">
-                                        <div class="row col-lg-8 col-md-12 pt-5 bg-white slider-1 sli">
-                                            <div class="slick-slide col-11">
-                                                <img class="mb-5 mt-4" src="img/logo_0.png" alt="">
-                                                <div class="mb-4 feedback-message">Долгие поиски единственного и
-                                                    неповторимого мастера на многострадальный сайт www.cielparfum.com,
-                                                    который был собран крайне некомпетентным программистом и раз в месяц
-                                                    стабильно грозил погибнуть, привели меня на сайт и, в итоге, к
-                                                    ребятам
-                                                    из Drupal-coder. И вот уже практически полгода как не проходит и
-                                                    дня,
-                                                    чтобы я не поудивлялась и не порадовалась своему везению! Починили
-                                                    все,
-                                                    что не работало - от поиска до отображения меню. Провели редизайн -
-                                                    не
-                                                    отходя от желаемого, но со своими существенными и качественными
-                                                    дополнениями. Осуществили ряд проектов - конкурсы, тесты и тд. А уж
-                                                    мелких починок и доработок - не счесть! И главное - все качественно
-                                                    и
-                                                    быстро (не взирая на не самый "быстрый" тариф). Есть вопросы -
-                                                    замечательный Алексей всегда подскажет, поддержит, отремонтирует
-                                                    и/или
-                                                    просто сделает с нуля. Есть задумка для реализации - замечательный
-                                                    Сергей обсудит и предложит идеальный вариант. Есть проблема -
-                                                    замечательные Надежда и Роман починят, поправят, сделают! Ребята
-                                                    доказали, что эта CMS - мощная и грамотная система управления.
-                                                    Надеюсь,
-                                                    что наше сотрудничество затянется надолго! Спасибо!!!</div>
-                                                <p>С уважением, Наталья Сушкова руководитель Отдела веб-проектов Группы
-                                                    компаний «Си Эль парфюм» <a href="#"
-                                                        tabindex="0">http://www.cielparfum.com</a></p>
-                                            </div>
-                                            <div class="slick-slide col-11">
-                                                <img class="mb-5 mt-4" src="img/logo_1.png" alt="">
-                                                <div class="mb-4 feedback-message">Господа, постоянное
-                                                    информационно-пропагандистское обеспечение нашей деятельности
-                                                    говорит о
-                                                    возможностях поставленных обществом задач. Как принято считать,
-                                                    действия
-                                                    представителей оппозиции, вне зависимости от их уровня, должны быть
-                                                    превращены в посмешище, хотя само их существование приносит
-                                                    несомненную
-                                                    пользу обществу. Сложно сказать, почему акционеры крупнейших
-                                                    компаний
-                                                    объективно рассмотрены соответствующими инстанциями. В своём
-                                                    стремлении
-                                                    повысить качество жизни, они забывают, что высокотехнологичная
-                                                    концепция
-                                                    общественного уклада требует от нас анализа экономической
-                                                    целесообразности принимаемых решений. В целом, конечно, базовый
-                                                    вектор
-                                                    развития обеспечивает актуальность форм воздействия. И нет сомнений,
-                                                    что
-                                                    представители современных социальных резервов формируют глобальную
-                                                    экономическую сеть и при этом - функционально разнесены на
-                                                    независимые
-                                                    элементы. Ясность нашей позиции очевидна: повышение уровня
-                                                    гражданского
-                                                    сознания говорит о возможностях системы массового участия.</div>
-                                                <p>Повседневная практика показывает, что сложившаяся структура
-                                                    организации
-                                                    предполагает независимые способы реализации позиций, занимаемых
-                                                    участниками в отношении поставленных задач.</p>
-                                            </div>
-                                            <div class="slick-slide col-11">
-                                                <img class="mb-5 mt-4" src="img/logo_2.png" alt="">
-                                                <div class="mb-4 feedback-message">Имеется спорная точка зрения,
-                                                    гласящая
-                                                    примерно следующее: некоторые особенности внутренней политики
-                                                    превращены
-                                                    в посмешище, хотя само их существование приносит несомненную пользу
-                                                    обществу. Приятно, граждане, наблюдать, как тщательные исследования
-                                                    конкурентов призваны к ответу. Но синтетическое тестирование создаёт
-                                                    необходимость включения в производственный план целого ряда
-                                                    внеочередных
-                                                    мероприятий с учётом комплекса укрепления моральных ценностей.
-                                                    Непосредственные участники технического прогресса своевременно
-                                                    верифицированы. А ещё независимые государства указаны как
-                                                    претенденты на
-                                                    роль ключевых факторов. Задача организации, в особенности же
-                                                    экономическая повестка сегодняшнего дня выявляет срочную потребность
-                                                    укрепления моральных ценностей. Внезапно, стремящиеся вытеснить
-                                                    традиционное производство, нанотехнологии, инициированные
-                                                    исключительно
-                                                    синтетически, разоблачены.</div>
-                                                <p>Также как высокое качество позиционных исследований создаёт
-                                                    необходимость
-                                                    включения в производственный план целого ряда внеочередных
-                                                    мероприятий с
-                                                    учётом комплекса новых принципов формирования
-                                                    материально-технической и
-                                                    кадровой базы.</p>
-                                            </div>
-                                            <div class="slick-slide col-11">
-                                                <img class="mb-5 mt-4" src="img/logo_3.png" alt="">
-                                                <div class="mb-4 feedback-message">Не следует, однако, забывать, что
-                                                    новая
-                                                    модель организационной деятельности не даёт нам иного выбора, кроме
-                                                    определения как самодостаточных, так и внешне зависимых
-                                                    концептуальных
-                                                    решений. Для современного мира консультация с широким активом
-                                                    обеспечивает широкому кругу (специалистов) участие в формировании
-                                                    прогресса профессионального сообщества. В частности, укрепление и
-                                                    развитие внутренней структуры предоставляет широкие возможности для
-                                                    переосмысления внешнеэкономических политик. А также предприниматели
-                                                    в
-                                                    сети интернет являются только методом политического участия и
-                                                    преданы
-                                                    социально-демократической анафеме. Учитывая ключевые сценарии
-                                                    поведения,
-                                                    перспективное планирование предоставляет широкие возможности для
-                                                    форм
-                                                    воздействия. Вот вам яркий пример современных тенденций -
-                                                    сложившаяся
-                                                    структура организации обеспечивает широкому кругу (специалистов)
-                                                    участие
-                                                    в формировании поэтапного и последовательного развития общества. А
-                                                    также
-                                                    диаграммы связей объективно рассмотрены соответствующими
-                                                    инстанциями!
-                                                    Господа, высококачественный прототип будущего проекта говорит о
-                                                    возможностях позиций, занимаемых участниками в отношении
-                                                    поставленных
-                                                    задач.</div>
-                                                <p>Сложно сказать, почему сделанные на базе интернет-аналитики выводы
-                                                    рассмотрены исключительно в разрезе маркетинговых и финансовых
-                                                    предпосылок.</p>
-                                            </div>
-                                            <div class="slick-slide col-11">
-                                                <img class="mb-5 mt-4" src="img/logo_4.png" alt="">
-                                                <div class="mb-4 feedback-message">Долгие поиски единственного и
-                                                    неповторимого мастера на многострадальный сайт www.cielparfum.com,
-                                                    который был собран крайне некомпетентным программистом и раз в месяц
-                                                    стабильно грозил погибнуть, привели меня на сайт и, в итоге, к
-                                                    ребятам
-                                                    из Drupal-coder. И вот уже практически полгода как не проходит и
-                                                    дня,
-                                                    чтобы я не поудивлялась и не порадовалась своему везению! Починили
-                                                    все,
-                                                    что не работало - от поиска до отображения меню. Провели редизайн -
-                                                    не
-                                                    отходя от желаемого, но со своими существенными и качественными
-                                                    дополнениями. Осуществили ряд проектов - конкурсы, тесты и тд. А уж
-                                                    мелких починок и доработок - не счесть! И главное - все качественно
-                                                    и
-                                                    быстро (не взирая на не самый "быстрый" тариф). Есть вопросы -
-                                                    замечательный Алексей всегда подскажет, поддержит, отремонтирует
-                                                    и/или
-                                                    просто сделает с нуля. Есть задумка для реализации - замечательный
-                                                    Сергей обсудит и предложит идеальный вариант. Есть проблема -
-                                                    замечательные Надежда и Роман починят, поправят, сделают! Ребята
-                                                    доказали, что эта CMS - мощная и грамотная система управления.
-                                                    Надеюсь,
-                                                    что наше сотрудничество затянется надолго! Спасибо!!!</div>
-                                                <p>Наша Наша Наша гаааааазеееееееееееттттттаааааааааааааааааааааааааа
-                                                </p>
-                                            </div>
+                            <div class="col-lg-4 col-md-11 p-2">
+                                <div class="case-block">
+                                    <div class="case-img-big" style="background-image: url(img/case-3.jpg)">
+                                        <div class="case-header-big">
+                                            <h2>
+                                                <a href="#">
+                                                    <span>Повышение конверсии страницы с формой заявки с применением
+                                                        AB-тестирования</span>
+                                                </a>
+                                            </h2>
+                                            <div class="case-date" style="color: #fff">24.01.2020</div>
                                         </div>
-                                        <div class="row col-lg-4 col-md-12 sli py-lg-5 pb-md-5 bg-white">
-                                            <div
-                                                class="d-flex flex-column justify-content-center align-items-center w-100 sli-arr h-100">
-                                                <div class="row mt-2 mb-2">
-                                                    <img src="img/slick-prev.svg" class="mr-4 pr sli-but" alt=""
-                                                        onclick="setInt(false)">
-                                                    <span class="slick-slide-num"><span
-                                                            class="slide-num-current">01</span>
-                                                        / 05</span>
-                                                    <img src="img/slick-next.svg" class="ml-4 nx sli-but" alt=""
-                                                        onclick="setInt(true)">
-                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-11 p-2">
+                                <div class="case-block">
+                                    <div class="case-img-big" style="background-image: url(img/case-4.jpg)">
+                                        <div class="case-header-big">
+                                            <h2>
+                                                <a href="#">
+                                                    <span>Drupal 7: ускорение генерации страниц интернет-магазина на
+                                                        32%</span>
+                                                </a>
+                                            </h2>
+                                            <div class="case-date" style="color: #fff">23.09.2019</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-11 p-2">
+                                <div class="case-block">
+                                    <div class="case-img" style="background-image: url(img/case-5.png)"></div>
+                                    <div class="p-4 case-content">
+                                        <div class="case-header">
+                                            <h2>
+                                                <a href="#">
+                                                    <span>Обмен товарами и заказами интернет-магазинов на<br>Drupal
+                                                        7 с
+                                                        1C: Предприятие, МойСклад, Класс365 </span>
+                                                </a>
+                                            </h2>
+                                            <div class="case-date">22.08.2019</div>
+                                        </div>
+                                        <div class="case-main">
+                                            <div class="case-text">
+                                                <p>Опубликован <a href="#">релиз модуля...</a> </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1389,517 +1174,695 @@
                         </div>
                     </div>
                 </div>
-                <!-- end of 9 BLOCK -->  
+            </div>
+            <!-- end of 8 BLOCK -->
 
-                <!-- 10 BLOCK -->
-                <div class="d-flex flex-row justify-content-center mxh10 flex-grow-1 w-100 mar5">
-                    <div class="d-flex flex-column align-items-center w-100">
-
-                        <div class="d-flex col-11 col-lg-8 p-0 mb-3 mb-md-5 w-100 flex-shrink-1">
-
-                            <div class="d-flex flex-column w-100 align-items-center">
-
-                                <div class="d-flex w-100 justify-content-center">
-
-                                    <h4>
-
-                                        С нами работают
-
-                                    </h4>
-
-                                </div>
-
-                                <div class="d-flex w-100 justify-content-center">
-
-                                    <h5 class="wd text-left text-md-center p-0">
-
-                                        Десятки компаний доверяют нам самое ценное, что у них есть в интернете – свои
-                                        сайты.
-                                        Мы делаем всё, чтобы наше сотрудничество было долгим.
-
-                                    </h5>
-
-                                </div>
-
-                            </div>
-
+            <!--9 BLOCK-->
+            <div class="d-flex flex-column justify-content-center w-100 pt-5 flex-grow-1 feedback mxhS2">
+                <div class="d-flex flex-column align-items-center w-100 feedback1">
+                    <div class="row">
+                        <div class="col-md-12 mb-5">
+                            <h4>Отзывы</h4>
                         </div>
-
-                        <div class="d-flex slider variable-width flex-nowrap w-100 mb-2">
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_1.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_3.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_2.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_0.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_0.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
-
-                            </div>
-
-                        </div>
-
-                        <div class="d-flex slider variable-width2 flex-nowrap w-100">
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_0.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_1.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_2.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_3.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_3.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
-
-                            </div>
-
-                            <div class="item d-flex justify-content-center">
-
-                                <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
-
-                            </div>
-
-                        </div>
-
                     </div>
-
-                </div>
-                <!-- end of 10 BLOCK -->
-
- <!-- 11 BLOCK -->
-                <div class="d-flex flex-row justify-content-center w-100 mxh11B flex-grow-1">
-                    <div class="col-11 col-md-11 col-lg-10 p-0 mar6">
-
-                        <div class="d-flex w-100 justify-content-center mb-5">
-
-                            <h4>
-                                FAQ
-                            </h4>
-
-                        </div>
-
-                        <div class="d-flex w-100">
-
-                            <div id="accordion">
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse1">
-                                    <div class="card-header" id="heading1">
-                                        <div class="mb-0 h5">
-                                            <div class="num">1.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse1" aria-expanded="false"
-                                                aria-controls="collapse1">
-                                                Кто непосредственно занимается поддержкой?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse1" class="collapse" aria-labelledby="heading1"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Сайты поддерживают штатные сотрудники ООО «Инитлаб», г. Краснодар, прошедшие
-                                            специальное обучение и имеющие опыт работы с Друпал от 4 до 15 лет: 8
-                                            web-разработчиков, 2 специалиста по SEO, 4 системных администратора.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse2">
-                                    <div class="card-header" id="heading2">
-                                        <div class="mb-0 h5">
-                                            <div class="num">2.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse2" aria-expanded="false"
-                                                aria-controls="collapse2">
-                                                Как организована работа поддержки?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse2" class="collapse" aria-labelledby="heading2"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Клиент выбирает один из тарифов и делает предоплату. Все заявки на работы по
-                                            сайту
-                                            заводятся в нашу систему Service desk. В течение времени реакции по тарифу
-                                            закрепленный за проектом специалист приступает к выполнению заявки,
-                                            фиксирует
-                                            время,
-                                            потраченное на выполнение заявки и закрывает заявку по окончанию работы.
-                                            Клиент
-                                            может посмотреть все заявки в работе и отработанные часы в своем кабинете
-                                            через
-                                            веб-интерфейс.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse3">
-                                    <div class="card-header" id="heading3">
-                                        <div class="mb-0 h5">
-                                            <div class="num">3.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse3" aria-expanded="false"
-                                                aria-controls="collapse3">
-                                                Что происходит, когда отработаны все предоплаченные часы за месяц?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse3" class="collapse" aria-labelledby="heading3"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Мы уведомляем Клиента, о том, что последующие заявки в этом месяце будут
-                                            выполняться
-                                            с доплатой согласно тарифу либо будут перенесены по срокам на следующий
-                                            месяц. В
-                                            конце месяца, в котором были заявки с доплатой, клиентам отправляется счет
-                                            на
-                                            доплату по факту выполненных работ сверх предоплаты тарифного плана.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse4">
-                                    <div class="card-header" id="heading4">
-                                        <div class="mb-0 h5">
-                                            <div class="num">4.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse4" aria-expanded="false"
-                                                aria-controls="collapse4">
-                                                Что происходит, когда не отработаны все предоплаченные часы за месяц?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse4" class="collapse" aria-labelledby="heading4"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Предоплата не переносится на следующий месяц и деньги не возвращаются. Для
-                                            продолжения поддержки сайта необходимо оплатить предоплату согласно
-                                            выбранному
-                                            тарифу за следующий месяц.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse5">
-                                    <div class="card-header" id="heading5">
-                                        <div class="mb-0 h5">
-                                            <div class="num">5.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse5" aria-expanded="false"
-                                                aria-controls="collapse5">
-                                                Как происходит оценка и согласование планируемого времени на выполнение
-                                                заявок?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse5" class="collapse" aria-labelledby="heading5"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Заявки, выполнение которых укладывается в оставшееся предоплаченное время,
-                                            по
-                                            умолчанию не оцениваются и время не согласовывается, мы стараемся сэкономить
-                                            время и
-                                            быстро выполнить работу. Если видим, что задача не укладывается в
-                                            предоплаченное
-                                            время, то делаем примерную оценку по времени и согласовываем оценку
-                                            трудоемкости
-                                            с
-                                            Клиентом. Клиент может явно попросить предварительно оценить работу по
-                                            времени и
-                                            согласовать трудоемкость, направив заявку с припиской в теме письма «Оценить
-                                            работу». В этом случае время на оценку также оплачивается согласно тарифу
-                                            поддержки.
-                                            Если время фактического выполнения превышает заранее согласованное, то
-                                            уточняем
-                                            оценку, договариваемся о возможной доплате и переносе сроков по задаче. На
-                                            наше
-                                            усмотрение большие задачи, трудоемкость которых мы можем заранее оценить,
-                                            например,
-                                            разработка отдельных модулей или самостоятельных разделов сайта по
-                                            подробному
-                                            техническому заданию, могут быть вынесены из поддержки в отдельный проект на
-                                            договорных условиях.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse6">
-                                    <div class="card-header" id="heading6">
-                                        <div class="mb-0 h5">
-                                            <div class="num">6.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse6" aria-expanded="false"
-                                                aria-controls="collapse6">
-                                                Сколько программистов выделяется на проект?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse6" class="collapse" aria-labelledby="heading6"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            1-2 человека. За каждым проектом закрепляется один ответственный специалист,
-                                            через
-                                            которого проходят все заявки. Все заявки становятся в очередь к
-                                            ответственному в
-                                            порядке их поступления в Helpdesk. Возможно привлечение дополнительных
-                                            штатных
-                                            специалистов в поддержку проекта в случаях, когда:
-                                            <ul>
-                                                <li>объем заявок стабильно большой и ответственный не успевает выполнять
-                                                    задачи;
-                                                </li>
-                                                <li>ответственный не может начать работу по заявке в срок (заболел, ушел
-                                                    в
-                                                    отпуск);</li>
-                                                <li>специфика задачи такова, что кто-то в команде сделает эту работу
-                                                    существенно
-                                                    быстрее.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse7">
-                                    <div class="card-header" id="heading7">
-                                        <div class="mb-0 h5">
-                                            <div class="num">7.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse7" aria-expanded="false"
-                                                aria-controls="collapse7">
-                                                Как подать заявку на внесение изменений на сайте?
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse7" class="collapse" aria-labelledby="heading7"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Для подачи заявки на внесение изменений на сайте необходимо написать письмо
-                                            на
-                                            email
-                                            поддержки с указанием в теме письма домена сайта и подробным описанием
-                                            вносимых
-                                            изменений.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse8">
-                                    <div class="card-header" id="heading8">
-                                        <div class="mb-0 h5">
-                                            <div class="num">8.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse8" aria-expanded="false"
-                                                aria-controls="collapse8">
-                                                Как подать заявку на добавление пользователя, изменение настроек
-                                                веб-сервера
+                    <div class="row feedback-main w-100">
+                        <div class="container">
+                            <div class="d-flex flex-column align-items-center">
+                                <div
+                                    class="row d-flex flex-lg-row flex-sm-column justify-content-center col-lg-11 col-md-11 wrap-slider mb-5 bg-white">
+                                    <div class="row col-lg-8 col-md-12 pt-5 bg-white slider-1 sli">
+                                        <div class="slick-slide col-11">
+                                            <img class="mb-5 mt-4" src="img/logo_0.png" alt="">
+                                            <div class="mb-4 feedback-message">Долгие поиски единственного и
+                                                неповторимого мастера на многострадальный сайт www.cielparfum.com,
+                                                который был собран крайне некомпетентным программистом и раз в месяц
+                                                стабильно грозил погибнуть, привели меня на сайт и, в итоге, к
+                                                ребятам
+                                                из Drupal-coder. И вот уже практически полгода как не проходит и
+                                                дня,
+                                                чтобы я не поудивлялась и не порадовалась своему везению! Починили
+                                                все,
+                                                что не работало - от поиска до отображения меню. Провели редизайн -
+                                                не
+                                                отходя от желаемого, но со своими существенными и качественными
+                                                дополнениями. Осуществили ряд проектов - конкурсы, тесты и тд. А уж
+                                                мелких починок и доработок - не счесть! И главное - все качественно
                                                 и
-                                                других задач по администрированию?
-                                            </button>
+                                                быстро (не взирая на не самый "быстрый" тариф). Есть вопросы -
+                                                замечательный Алексей всегда подскажет, поддержит, отремонтирует
+                                                и/или
+                                                просто сделает с нуля. Есть задумка для реализации - замечательный
+                                                Сергей обсудит и предложит идеальный вариант. Есть проблема -
+                                                замечательные Надежда и Роман починят, поправят, сделают! Ребята
+                                                доказали, что эта CMS - мощная и грамотная система управления.
+                                                Надеюсь,
+                                                что наше сотрудничество затянется надолго! Спасибо!!!</div>
+                                            <p>С уважением, Наталья Сушкова руководитель Отдела веб-проектов Группы
+                                                компаний «Си Эль парфюм» <a href="#"
+                                                    tabindex="0">http://www.cielparfum.com</a></p>
+                                        </div>
+                                        <div class="slick-slide col-11">
+                                            <img class="mb-5 mt-4" src="img/logo_1.png" alt="">
+                                            <div class="mb-4 feedback-message">Господа, постоянное
+                                                информационно-пропагандистское обеспечение нашей деятельности
+                                                говорит о
+                                                возможностях поставленных обществом задач. Как принято считать,
+                                                действия
+                                                представителей оппозиции, вне зависимости от их уровня, должны быть
+                                                превращены в посмешище, хотя само их существование приносит
+                                                несомненную
+                                                пользу обществу. Сложно сказать, почему акционеры крупнейших
+                                                компаний
+                                                объективно рассмотрены соответствующими инстанциями. В своём
+                                                стремлении
+                                                повысить качество жизни, они забывают, что высокотехнологичная
+                                                концепция
+                                                общественного уклада требует от нас анализа экономической
+                                                целесообразности принимаемых решений. В целом, конечно, базовый
+                                                вектор
+                                                развития обеспечивает актуальность форм воздействия. И нет сомнений,
+                                                что
+                                                представители современных социальных резервов формируют глобальную
+                                                экономическую сеть и при этом - функционально разнесены на
+                                                независимые
+                                                элементы. Ясность нашей позиции очевидна: повышение уровня
+                                                гражданского
+                                                сознания говорит о возможностях системы массового участия.</div>
+                                            <p>Повседневная практика показывает, что сложившаяся структура
+                                                организации
+                                                предполагает независимые способы реализации позиций, занимаемых
+                                                участниками в отношении поставленных задач.</p>
+                                        </div>
+                                        <div class="slick-slide col-11">
+                                            <img class="mb-5 mt-4" src="img/logo_2.png" alt="">
+                                            <div class="mb-4 feedback-message">Имеется спорная точка зрения,
+                                                гласящая
+                                                примерно следующее: некоторые особенности внутренней политики
+                                                превращены
+                                                в посмешище, хотя само их существование приносит несомненную пользу
+                                                обществу. Приятно, граждане, наблюдать, как тщательные исследования
+                                                конкурентов призваны к ответу. Но синтетическое тестирование создаёт
+                                                необходимость включения в производственный план целого ряда
+                                                внеочередных
+                                                мероприятий с учётом комплекса укрепления моральных ценностей.
+                                                Непосредственные участники технического прогресса своевременно
+                                                верифицированы. А ещё независимые государства указаны как
+                                                претенденты на
+                                                роль ключевых факторов. Задача организации, в особенности же
+                                                экономическая повестка сегодняшнего дня выявляет срочную потребность
+                                                укрепления моральных ценностей. Внезапно, стремящиеся вытеснить
+                                                традиционное производство, нанотехнологии, инициированные
+                                                исключительно
+                                                синтетически, разоблачены.</div>
+                                            <p>Также как высокое качество позиционных исследований создаёт
+                                                необходимость
+                                                включения в производственный план целого ряда внеочередных
+                                                мероприятий с
+                                                учётом комплекса новых принципов формирования
+                                                материально-технической и
+                                                кадровой базы.</p>
+                                        </div>
+                                        <div class="slick-slide col-11">
+                                            <img class="mb-5 mt-4" src="img/logo_3.png" alt="">
+                                            <div class="mb-4 feedback-message">Не следует, однако, забывать, что
+                                                новая
+                                                модель организационной деятельности не даёт нам иного выбора, кроме
+                                                определения как самодостаточных, так и внешне зависимых
+                                                концептуальных
+                                                решений. Для современного мира консультация с широким активом
+                                                обеспечивает широкому кругу (специалистов) участие в формировании
+                                                прогресса профессионального сообщества. В частности, укрепление и
+                                                развитие внутренней структуры предоставляет широкие возможности для
+                                                переосмысления внешнеэкономических политик. А также предприниматели
+                                                в
+                                                сети интернет являются только методом политического участия и
+                                                преданы
+                                                социально-демократической анафеме. Учитывая ключевые сценарии
+                                                поведения,
+                                                перспективное планирование предоставляет широкие возможности для
+                                                форм
+                                                воздействия. Вот вам яркий пример современных тенденций -
+                                                сложившаяся
+                                                структура организации обеспечивает широкому кругу (специалистов)
+                                                участие
+                                                в формировании поэтапного и последовательного развития общества. А
+                                                также
+                                                диаграммы связей объективно рассмотрены соответствующими
+                                                инстанциями!
+                                                Господа, высококачественный прототип будущего проекта говорит о
+                                                возможностях позиций, занимаемых участниками в отношении
+                                                поставленных
+                                                задач.</div>
+                                            <p>Сложно сказать, почему сделанные на базе интернет-аналитики выводы
+                                                рассмотрены исключительно в разрезе маркетинговых и финансовых
+                                                предпосылок.</p>
+                                        </div>
+                                        <div class="slick-slide col-11">
+                                            <img class="mb-5 mt-4" src="img/logo_4.png" alt="">
+                                            <div class="mb-4 feedback-message">Долгие поиски единственного и
+                                                неповторимого мастера на многострадальный сайт www.cielparfum.com,
+                                                который был собран крайне некомпетентным программистом и раз в месяц
+                                                стабильно грозил погибнуть, привели меня на сайт и, в итоге, к
+                                                ребятам
+                                                из Drupal-coder. И вот уже практически полгода как не проходит и
+                                                дня,
+                                                чтобы я не поудивлялась и не порадовалась своему везению! Починили
+                                                все,
+                                                что не работало - от поиска до отображения меню. Провели редизайн -
+                                                не
+                                                отходя от желаемого, но со своими существенными и качественными
+                                                дополнениями. Осуществили ряд проектов - конкурсы, тесты и тд. А уж
+                                                мелких починок и доработок - не счесть! И главное - все качественно
+                                                и
+                                                быстро (не взирая на не самый "быстрый" тариф). Есть вопросы -
+                                                замечательный Алексей всегда подскажет, поддержит, отремонтирует
+                                                и/или
+                                                просто сделает с нуля. Есть задумка для реализации - замечательный
+                                                Сергей обсудит и предложит идеальный вариант. Есть проблема -
+                                                замечательные Надежда и Роман починят, поправят, сделают! Ребята
+                                                доказали, что эта CMS - мощная и грамотная система управления.
+                                                Надеюсь,
+                                                что наше сотрудничество затянется надолго! Спасибо!!!</div>
+                                            <p>Наша Наша Наша гаааааазеееееееееееттттттаааааааааааааааааааааааааа
+                                            </p>
                                         </div>
                                     </div>
-
-                                    <div id="collapse8" class="collapse" aria-labelledby="heading8"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Для любых задач по администрированию необходимо написать письмо на email
-                                            поддержки с
-                                            указанием домена сайта и описанием задачи.
+                                    <div class="row col-lg-4 col-md-12 sli py-lg-5 pb-md-5 bg-white">
+                                        <div
+                                            class="d-flex flex-column justify-content-center align-items-center w-100 sli-arr h-100">
+                                            <div class="row mt-2 mb-2">
+                                                <img src="img/slick-prev.svg" class="mr-4 pr sli-but" alt=""
+                                                    onclick="setInt(false)">
+                                                <span class="slick-slide-num"><span class="slide-num-current">01</span>
+                                                    / 05</span>
+                                                <img src="img/slick-next.svg" class="ml-4 nx sli-but" alt=""
+                                                    onclick="setInt(true)">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of 9 BLOCK -->
 
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse9">
-                                    <div class="card-header" id="heading9">
-                                        <div class="mb-0 h5">
-                                            <div class="num">9.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse9" aria-expanded="false"
-                                                aria-controls="collapse9">
-                                                В течение какого времени начинается работа по заявке?
-                                            </button>
-                                        </div>
-                                    </div>
+            <!-- 10 BLOCK -->
+            <div class="d-flex flex-row justify-content-center mxh10 flex-grow-1 w-100 mar5">
+                <div class="d-flex flex-column align-items-center w-100">
 
-                                    <div id="collapse9" class="collapse" aria-labelledby="heading9"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Время реакции зависит типа заявки и от выбранного тарифного плана. Время
-                                            реакции
-                                            на
-                                            сбои, обнаруживаемые системой мониторинга, от 2-х часов в рабочее время.
-                                            Время
-                                            реакции на заявки по доработке сайта от 24-х часов в рабочее время. Время
-                                            реакции
-                                            может быть более гибко определено в SLA.
-                                        </div>
+                    <div class="d-flex col-11 col-lg-8 p-0 mb-3 mb-md-5 w-100 flex-shrink-1">
+
+                        <div class="d-flex flex-column w-100 align-items-center">
+
+                            <div class="d-flex w-100 justify-content-center">
+
+                                <h4>
+
+                                    С нами работают
+
+                                </h4>
+
+                            </div>
+
+                            <div class="d-flex w-100 justify-content-center">
+
+                                <h5 class="wd text-left text-md-center p-0">
+
+                                    Десятки компаний доверяют нам самое ценное, что у них есть в интернете – свои
+                                    сайты.
+                                    Мы делаем всё, чтобы наше сотрудничество было долгим.
+
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex slider variable-width flex-nowrap w-100 mb-2">
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_1.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_3.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_2.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_0.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_0.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex slider variable-width2 flex-nowrap w-100">
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_0.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_1.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_2.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_3.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_3.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_4.png" alt="1">
+
+                        </div>
+
+                        <div class="item d-flex justify-content-center">
+
+                            <img class="d-flex p-0 p-md-2 w-50 h-50" src="img/logo_5.jpg" alt="1">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- end of 10 BLOCK -->
+
+            <!-- 11 BLOCK -->
+            <div class="d-flex flex-row justify-content-center w-100 mxh11B flex-grow-1">
+                <div class="col-11 col-md-11 col-lg-10 p-0 mar6">
+
+                    <div class="d-flex w-100 justify-content-center mb-5">
+
+                        <h4>
+                            FAQ
+                        </h4>
+
+                    </div>
+
+                    <div class="d-flex w-100">
+
+                        <div id="accordion">
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse1">
+                                <div class="card-header" id="heading1">
+                                    <div class="mb-0 h5">
+                                        <div class="num">1.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                            Кто непосредственно занимается поддержкой?
+                                        </button>
                                     </div>
                                 </div>
 
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse10">
-                                    <div class="card-header" id="heading10">
-                                        <div class="mb-0 h5">
-                                            <div class="num">10.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse10" aria-expanded="false"
-                                                aria-controls="collapse10">
-                                                В какое время работает поддержка?
-                                            </button>
-                                        </div>
+                                <div id="collapse1" class="collapse" aria-labelledby="heading1"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Сайты поддерживают штатные сотрудники ООО «Инитлаб», г. Краснодар, прошедшие
+                                        специальное обучение и имеющие опыт работы с Друпал от 4 до 15 лет: 8
+                                        web-разработчиков, 2 специалиста по SEO, 4 системных администратора.
                                     </div>
+                                </div>
+                            </div>
 
-                                    <div id="collapse10" class="collapse" aria-labelledby="heading10"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Время работы поддержки с 10 до 18 часов (MSK, GMT+3) в рабочие дни. Мы также
-                                            можем
-                                            выполнять работы сверхурочно по договоренности с оплатой по двойной ставке
-                                            часа.
-                                        </div>
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse2">
+                                <div class="card-header" id="heading2">
+                                    <div class="mb-0 h5">
+                                        <div class="num">2.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            Как организована работа поддержки?
+                                        </button>
                                     </div>
                                 </div>
 
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse11">
-                                    <div class="card-header" id="heading11">
-                                        <div class="mb-0 h5">
-                                            <div class="num">11.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse11" aria-expanded="false"
-                                                aria-controls="collapse11">
-                                                Подходят ли услуги поддержки, если необходимо произвести обновление ядра
-                                                Drupal
-                                                или модулей?
-                                            </button>
-                                        </div>
+                                <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Клиент выбирает один из тарифов и делает предоплату. Все заявки на работы по
+                                        сайту
+                                        заводятся в нашу систему Service desk. В течение времени реакции по тарифу
+                                        закрепленный за проектом специалист приступает к выполнению заявки,
+                                        фиксирует
+                                        время,
+                                        потраченное на выполнение заявки и закрывает заявку по окончанию работы.
+                                        Клиент
+                                        может посмотреть все заявки в работе и отработанные часы в своем кабинете
+                                        через
+                                        веб-интерфейс.
                                     </div>
+                                </div>
+                            </div>
 
-                                    <div id="collapse11" class="collapse" aria-labelledby="heading11"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Обновление безопасности в рамках одной ветки Drupal делается в режиме
-                                            поддержки
-                                            на
-                                            всех тарифных планах. Обновление, связанное с переходом на следующую ветку
-                                            Drupal,
-                                            например апгрейд с 6.х на 7.х, лучше делать в рамках отдельного проекта,
-                                            стоимость и
-                                            сроки которого мы можем предложить после проведения аудита апгрейда. Аудит
-                                            апгрейда
-                                            включает в себя анализ путей миграции и трудоемкости обновления для всех
-                                            модулей,
-                                            блоков кода, Views, тем оформления, стоит от 6500 рублей и, как правило,
-                                            занимает
-                                            1-3 дня, в зависимости от размера сайта.
-                                        </div>
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse3">
+                                <div class="card-header" id="heading3">
+                                    <div class="mb-0 h5">
+                                        <div class="num">3.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            Что происходит, когда отработаны все предоплаченные часы за месяц?
+                                        </button>
                                     </div>
                                 </div>
 
-                                <div class="card collapsed" data-toggle="collapse" data-target="#collapse12">
-                                    <div class="card-header" id="heading12">
-                                        <div class="mb-0 h5">
-                                            <div class="num">12.</div>
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#collapse12" aria-expanded="false"
-                                                aria-controls="collapse12">
-                                                Можно ли пообщаться со специалистом голосом или в мессенджере?
-                                            </button>
-                                        </div>
+                                <div id="collapse3" class="collapse" aria-labelledby="heading3"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Мы уведомляем Клиента, о том, что последующие заявки в этом месяце будут
+                                        выполняться
+                                        с доплатой согласно тарифу либо будут перенесены по срокам на следующий
+                                        месяц. В
+                                        конце месяца, в котором были заявки с доплатой, клиентам отправляется счет
+                                        на
+                                        доплату по факту выполненных работ сверх предоплаты тарифного плана.
                                     </div>
+                                </div>
+                            </div>
 
-                                    <div id="collapse12" class="collapse" aria-labelledby="heading12"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            Для этого нужно написать заявку на консультацию на email поддержки и
-                                            сообщить
-                                            удобное время и контактные данные.
-                                        </div>
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse4">
+                                <div class="card-header" id="heading4">
+                                    <div class="mb-0 h5">
+                                        <div class="num">4.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            Что происходит, когда не отработаны все предоплаченные часы за месяц?
+                                        </button>
                                     </div>
                                 </div>
 
+                                <div id="collapse4" class="collapse" aria-labelledby="heading4"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Предоплата не переносится на следующий месяц и деньги не возвращаются. Для
+                                        продолжения поддержки сайта необходимо оплатить предоплату согласно
+                                        выбранному
+                                        тарифу за следующий месяц.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse5">
+                                <div class="card-header" id="heading5">
+                                    <div class="mb-0 h5">
+                                        <div class="num">5.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            Как происходит оценка и согласование планируемого времени на выполнение
+                                            заявок?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse5" class="collapse" aria-labelledby="heading5"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Заявки, выполнение которых укладывается в оставшееся предоплаченное время,
+                                        по
+                                        умолчанию не оцениваются и время не согласовывается, мы стараемся сэкономить
+                                        время и
+                                        быстро выполнить работу. Если видим, что задача не укладывается в
+                                        предоплаченное
+                                        время, то делаем примерную оценку по времени и согласовываем оценку
+                                        трудоемкости
+                                        с
+                                        Клиентом. Клиент может явно попросить предварительно оценить работу по
+                                        времени и
+                                        согласовать трудоемкость, направив заявку с припиской в теме письма «Оценить
+                                        работу». В этом случае время на оценку также оплачивается согласно тарифу
+                                        поддержки.
+                                        Если время фактического выполнения превышает заранее согласованное, то
+                                        уточняем
+                                        оценку, договариваемся о возможной доплате и переносе сроков по задаче. На
+                                        наше
+                                        усмотрение большие задачи, трудоемкость которых мы можем заранее оценить,
+                                        например,
+                                        разработка отдельных модулей или самостоятельных разделов сайта по
+                                        подробному
+                                        техническому заданию, могут быть вынесены из поддержки в отдельный проект на
+                                        договорных условиях.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse6">
+                                <div class="card-header" id="heading6">
+                                    <div class="mb-0 h5">
+                                        <div class="num">6.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                            Сколько программистов выделяется на проект?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse6" class="collapse" aria-labelledby="heading6"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        1-2 человека. За каждым проектом закрепляется один ответственный специалист,
+                                        через
+                                        которого проходят все заявки. Все заявки становятся в очередь к
+                                        ответственному в
+                                        порядке их поступления в Helpdesk. Возможно привлечение дополнительных
+                                        штатных
+                                        специалистов в поддержку проекта в случаях, когда:
+                                        <ul>
+                                            <li>объем заявок стабильно большой и ответственный не успевает выполнять
+                                                задачи;
+                                            </li>
+                                            <li>ответственный не может начать работу по заявке в срок (заболел, ушел
+                                                в
+                                                отпуск);</li>
+                                            <li>специфика задачи такова, что кто-то в команде сделает эту работу
+                                                существенно
+                                                быстрее.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse7">
+                                <div class="card-header" id="heading7">
+                                    <div class="mb-0 h5">
+                                        <div class="num">7.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            Как подать заявку на внесение изменений на сайте?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse7" class="collapse" aria-labelledby="heading7"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Для подачи заявки на внесение изменений на сайте необходимо написать письмо
+                                        на
+                                        email
+                                        поддержки с указанием в теме письма домена сайта и подробным описанием
+                                        вносимых
+                                        изменений.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse8">
+                                <div class="card-header" id="heading8">
+                                    <div class="mb-0 h5">
+                                        <div class="num">8.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            Как подать заявку на добавление пользователя, изменение настроек
+                                            веб-сервера
+                                            и
+                                            других задач по администрированию?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse8" class="collapse" aria-labelledby="heading8"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Для любых задач по администрированию необходимо написать письмо на email
+                                        поддержки с
+                                        указанием домена сайта и описанием задачи.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse9">
+                                <div class="card-header" id="heading9">
+                                    <div class="mb-0 h5">
+                                        <div class="num">9.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            В течение какого времени начинается работа по заявке?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse9" class="collapse" aria-labelledby="heading9"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Время реакции зависит типа заявки и от выбранного тарифного плана. Время
+                                        реакции
+                                        на
+                                        сбои, обнаруживаемые системой мониторинга, от 2-х часов в рабочее время.
+                                        Время
+                                        реакции на заявки по доработке сайта от 24-х часов в рабочее время. Время
+                                        реакции
+                                        может быть более гибко определено в SLA.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse10">
+                                <div class="card-header" id="heading10">
+                                    <div class="mb-0 h5">
+                                        <div class="num">10.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                            В какое время работает поддержка?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse10" class="collapse" aria-labelledby="heading10"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Время работы поддержки с 10 до 18 часов (MSK, GMT+3) в рабочие дни. Мы также
+                                        можем
+                                        выполнять работы сверхурочно по договоренности с оплатой по двойной ставке
+                                        часа.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse11">
+                                <div class="card-header" id="heading11">
+                                    <div class="mb-0 h5">
+                                        <div class="num">11.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                            Подходят ли услуги поддержки, если необходимо произвести обновление ядра
+                                            Drupal
+                                            или модулей?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse11" class="collapse" aria-labelledby="heading11"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Обновление безопасности в рамках одной ветки Drupal делается в режиме
+                                        поддержки
+                                        на
+                                        всех тарифных планах. Обновление, связанное с переходом на следующую ветку
+                                        Drupal,
+                                        например апгрейд с 6.х на 7.х, лучше делать в рамках отдельного проекта,
+                                        стоимость и
+                                        сроки которого мы можем предложить после проведения аудита апгрейда. Аудит
+                                        апгрейда
+                                        включает в себя анализ путей миграции и трудоемкости обновления для всех
+                                        модулей,
+                                        блоков кода, Views, тем оформления, стоит от 6500 рублей и, как правило,
+                                        занимает
+                                        1-3 дня, в зависимости от размера сайта.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card collapsed" data-toggle="collapse" data-target="#collapse12">
+                                <div class="card-header" id="heading12">
+                                    <div class="mb-0 h5">
+                                        <div class="num">12.</div>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                            Можно ли пообщаться со специалистом голосом или в мессенджере?
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="collapse12" class="collapse" aria-labelledby="heading12"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Для этого нужно написать заявку на консультацию на email поддержки и
+                                        сообщить
+                                        удобное время и контактные данные.
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -1907,130 +1870,132 @@
                     </div>
 
                 </div>
-                <!-- end of 11 BLOCK -->
 
-                <!-- 12 BLOCK -->
-                <div class="d-flex flex-column justify-content-center w-100 flex-grow-1 mar2 footer">
-                    <!--mxh12B-->
-                    
-                    <div class="container">
-                        <div class="body-of-footer">
-                            <div class="form">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6 text-footer">
-                                        <div class="text-footer-1">
-                                            <div class="block-text-wrapper">
-                                                <div class="block-text-title">
-                                                    Оставить заявку на<br> поддержку сайта
-                                                </div>
-                                                <div class="block-text-main">
-                                                    Срочно нужна поддержка сайта? Ваша команда не успевает справиться
-                                                    самостоятельно или предыдущий подрядчик не справился с работой?
-                                                    Тогда
-                                                    вам точно к нам! Просто оставьте заявку и наш менеджер с вами
-                                                    свяжется!
-                                                </div>
-                                                <div class="block-text-contacts">
-                                                    <ul class="pl-0">
-                                                        <li class="block-text-nums">
-                                                            <a href="88002222673">8-800-222-26-73</a>
-                                                        </li>
-                                                        <li class="block-text-email">
-                                                            <a href="mailto:info@drupal-coder.ru">
-                                                                info@drupal-coder.ru
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            </div>
+            <!-- end of 11 BLOCK -->
+
+            <!-- 12 BLOCK -->
+            <div class="d-flex flex-column justify-content-center w-100 flex-grow-1 mar2 footer">
+                <!--mxh12B-->
+
+                <div class="container">
+                    <div class="body-of-footer">
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 text-footer">
+                                    <div class="text-footer-1">
+                                        <div class="block-text-wrapper">
+                                            <div class="block-text-title">
+                                                Оставить заявку на<br> поддержку сайта
+                                            </div>
+                                            <div class="block-text-main">
+                                                Срочно нужна поддержка сайта? Ваша команда не успевает справиться
+                                                самостоятельно или предыдущий подрядчик не справился с работой?
+                                                Тогда
+                                                вам точно к нам! Просто оставьте заявку и наш менеджер с вами
+                                                свяжется!
+                                            </div>
+                                            <div class="block-text-contacts">
+                                                <ul class="pl-0">
+                                                    <li class="block-text-nums">
+                                                        <a href="88002222673">8-800-222-26-73</a>
+                                                    </li>
+                                                    <li class="block-text-email">
+                                                        <a href="mailto:info@drupal-coder.ru">
+                                                            info@drupal-coder.ru
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6  body-of-form">
+                                </div>
+                                <div class="col-md-6 col-sm-6  body-of-form">
 
-                                        <form class="forma0 contact-form" id="contact-form1">
-                                            <div class="form-name">
-                                                <div id="name-input-wrapper" class="form-group">
-                                                    <input v-model="name" id="name-of-form" name="firstName" class="field" type="text"
-                                                        placeholder="Ваше имя" required>
-                                                </div>
+                                    <form class="forma0 contact-form" id="contact-form1">
+                                        <div class="form-name">
+                                            <div id="name-input-wrapper" class="form-group">
+                                                <input v-model="name" id="name-of-form" name="firstName" class="field"
+                                                    type="text" placeholder="Ваше имя" required>
                                             </div>
-                                            <div class="form-phone">
-                                                <div id="phone-input-wrapper" class="form-group">
-                                                    <input v-model="phone" id="phone-of-form" name="phone" class="field" type="text"
-                                                        placeholder="Телефон" required>
-                                                </div>
+                                        </div>
+                                        <div class="form-phone">
+                                            <div id="phone-input-wrapper" class="form-group">
+                                                <input v-model="phone" id="phone-of-form" name="phone" class="field"
+                                                    type="text" placeholder="Телефон" required>
                                             </div>
-                                            <div class="form-email">
-                                                <div id="email-input-wrapper" class="form-group">
-                                                    <input v-model="email" id="email-of-form" name = "email" class="field"
-                                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="text"
-                                                        placeholder="E-mail" required>
+                                        </div>
+                                        <div class="form-email">
+                                            <div id="email-input-wrapper" class="form-group">
+                                                <input v-model="email" id="email-of-form" name="email" class="field"
+                                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="text"
+                                                    placeholder="E-mail" required>
 
-                                                </div>
                                             </div>
-                                            <div class="form-message">
-                                                <div id="message-input-wrapper" class="form-group">
-                                                    <textarea v-model="text" id="message-of-form" name="message" class="field" cols="30" rows="4"
-                                                        placeholder="Ваш комментарий" required></textarea>
-                                                </div>
+                                        </div>
+                                        <div class="form-message">
+                                            <div id="message-input-wrapper" class="form-group">
+                                                <textarea v-model="text" id="message-of-form" name="message"
+                                                    class="field" cols="30" rows="4" placeholder="Ваш комментарий"
+                                                    required></textarea>
                                             </div>
-                                            <div class="form-checkbox mt-n3">
-                                                <div id="checkbox-input-wrapper" class="form-group">
-                                                    <input type="checkbox" name="check" class="custom-checkbox" id="happy"
-                                                        name="happy" value="yes" required>
-                                                    <label for="happy"><span>Отправляя заявку, я даю согласие на <a
-                                                                href="#">обработку своих персональных
-                                                                данных</a></span></label>
-                                                </div>
+                                        </div>
+                                        <div class="form-checkbox mt-n3">
+                                            <div id="checkbox-input-wrapper" class="form-group">
+                                                <input type="checkbox" name="check" class="custom-checkbox" id="happy"
+                                                    name="happy" value="yes" required>
+                                                <label for="happy"><span>Отправляя заявку, я даю согласие на <a
+                                                            href="#">обработку своих персональных
+                                                            данных</a></span></label>
                                             </div>
-                                            <div class="form-button mt-n4 mb-3">
-                                                <button class="button4" type="submit">
-                                                    <p>Свяжитесь с нами</p>
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
+                                        </div>
+                                        <div class="form-button mt-n4 mb-3">
+                                            <button class="button4" type="submit">
+                                                <p>Свяжитесь с нами</p>
+                                            </button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="brd w-100"></div>
-                    <div class="container">
-                        <div class="footer-of-footer pt-5">
-                            <div class="social-links mb-2">
-                                <ul class="social-links-wrap">
-                                    <li class="item-social-links">
-                                        <a href="#">
-                                            <i class="fab facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="item-social-links">
-                                        <a href="#">
+                </div>
+                <div class="brd w-100"></div>
+                <div class="container">
+                    <div class="footer-of-footer pt-5">
+                        <div class="social-links mb-2">
+                            <ul class="social-links-wrap">
+                                <li class="item-social-links">
+                                    <a href="#">
+                                        <i class="fab facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="item-social-links">
+                                    <a href="#">
 
-                                        </a>
-                                    </li>
-                                    <li class="item-social-links">
-                                        <a href="#">
+                                    </a>
+                                </li>
+                                <li class="item-social-links">
+                                    <a href="#">
 
-                                        </a>
-                                    </li>
-                                    <li class="item-social-links">
-                                        <a href="#">
+                                    </a>
+                                </li>
+                                <li class="item-social-links">
+                                    <a href="#">
 
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p>
-                                Проект ООО «Инитлаб», Краснодар, Россия.
-                                <br>
-                                Drupal является зарегистрированной торговой маркой Dries Buytaert.
-                            </p>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
+                        <p>
+                            Проект ООО «Инитлаб», Краснодар, Россия.
+                            <br>
+                            Drupal является зарегистрированной торговой маркой Dries Buytaert.
+                        </p>
                     </div>
                 </div>
-                <!-- end of 12 BLOCK -->
-          
+            </div>
+            <!-- end of 12 BLOCK -->
         </div>
     </div>
 </body>
