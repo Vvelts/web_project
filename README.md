@@ -1,6 +1,6 @@
 # Поддержка Drupal
 
-<a href="https://vvelts.github.io/web_project/public/index.html" target="_blank">Открыть проект🔥🔥🔥</a>
+<a href="https://vvelts.github.io/web_project/index.html" target="_blank">Открыть проект🔥🔥🔥</a>
 <p></p>
 <a href="https://formcarry.com/profile/form/u0wQgHHpKwB/submissions" target="_blank">Formcarry (popup)</a>
 <p></p>
